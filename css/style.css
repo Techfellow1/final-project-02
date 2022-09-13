@@ -568,7 +568,6 @@ display: flex;
     -ms-flex-align: center;
         align-items: center;
 gap: 100px;
-margin-left: 180px;
 }
 .sec-4-row-img {
   width: 100px;
@@ -778,7 +777,7 @@ input[type=submit]:hover {
 }
 .location-container {
   max-width: 100%;
-  margin: 100px 400px 50px;
+  margin: 100px 300px 50px;
   margin-top: 20px;
 }
 .column-icons {
