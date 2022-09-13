@@ -1,0 +1,23 @@
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/roboto/Roboto-BoldItalic.ttf');
+    src: url('../fonts/roboto/Roboto-Light.ttf');
+    src: url('../fonts/roboto/Roboto-Black.ttf');
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: lato;
+    src: url('../fonts/lato/Lato-BlackItalic.ttf');
+    src: url('../fonts/lato/Lato-Bold.ttf');
+    src: url('../fonts/lato/Lato-Light.ttf');
+    src: url('../fonts/lato/Lato-Regular.ttf');
+    src: url('../fonts/lato/Lato-Thin.ttf');
+}
+@font-face {
+    font-family: lora;
+    src: url('../fonts/lora/Lora-Bold.ttf');
+    src: url('../fonts/lora/Lora-BoldItalic.ttf');
+    src: url('../fonts/lora/Lora-Medium.ttf');
+    src: url('../fonts/lora/Lora-Regular.ttf');
+}
