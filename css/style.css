@@ -29,21 +29,13 @@
   width: 100%;
 }
 .navigation-wrapper {
- 
-
   text-align: center;
-  
-          -webkit-box-pack: justify;
-  
-              -ms-flex-pack: justify;
-  
-                  justify-content: space-between;
- 
-          -webkit-box-align: center;
- 
-              -ms-flex-align: center;
- 
-                  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: fixed;
   height: 60px;
   background-color: rgb(97, 100, 251);
@@ -194,6 +186,7 @@ button:hover {
   padding-left: 20px;
 }
 .block-text-pg1 {
+  margin-left: 80px;
   position: absolute;
   left: 50%;
   top: 50%;
