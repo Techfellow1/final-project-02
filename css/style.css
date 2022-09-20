@@ -361,9 +361,8 @@ button:hover {
   background: radial-gradient(circle, rgba(63,94,251,1) 1%, rgba(223,244,245,1) 65%, rgba(70,245,252,1) 80%);
 }
 .nft-sec {
-  max-width: 1600px;
   width: 100%;
-  margin-left: 200px;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -517,6 +516,8 @@ margin-bottom: 56px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          width: 100%;
+          margin-right: 130px;
 }
 .size {
   width: 370px;
