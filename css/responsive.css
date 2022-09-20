@@ -18,6 +18,8 @@
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        position: relative;
+        flex-direction: column;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
@@ -25,8 +27,10 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        margin-right: 150px;
-        }
+                width: 100%;
+                    }
+          
+
     .burger-bar {
         display: none;
         }
@@ -44,6 +48,7 @@
            -ms-flex-direction: column;
                flex-direction: column;
        margin-top: 250px;
+       margin-left: 20px;
     }
     }
     
@@ -326,9 +331,7 @@
         margin-top: 250px;
      }
     }
-    @media (max-width:320px) {
-    
-    }
+
     
     
     

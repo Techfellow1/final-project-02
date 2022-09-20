@@ -9,8 +9,7 @@
 
 
 .container-main {
-  width: 1920px;
-  max-width: 100%;
+  width: 100%;
   background-image: url(../images/main-pic.jpg);
   background-size: cover;
   float: left;
@@ -26,7 +25,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
 }
 .navigation-wrapper {
   text-align: center;
@@ -40,14 +38,13 @@
   height: 60px;
   background-color: rgb(97, 100, 251);
   z-index: 999;
-  width: 1690px;
-  max-width: 100%;
+  width: 100%;
 }
 .logo {
   margin-top: 5px;
   margin-bottom: 5px;
   height: 0px;
-  max-width: 100%;
+  width: 100%;
 }
 .logo-text {
   font-family: 'Roboto', sans-serif;
@@ -66,7 +63,6 @@
 .navigation {
   width: 100%;
   margin-top: 30px;
-  margin-right: 20px;
 }
 .nav-ul {
   display: -webkit-box;
@@ -99,15 +95,14 @@
 .burger-bar {
   display: none;
   font-size: 25px;
-  margin: 5px;
   color: #fff;
   cursor: pointer;
 }
 .menu-bar {
   display: block;
   width: 25px;
-  height: 3px;
-  margin: 5px auto;
+  height: 2.9px;
+  margin: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -119,7 +114,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -367,7 +363,7 @@ button:hover {
 .nft-sec {
   max-width: 1600px;
   width: 100%;
-  margin: 0 auto;
+  margin-left: 200px;
 }
 
 .main-title {
